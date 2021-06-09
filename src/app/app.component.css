@@ -1,0 +1,71 @@
+input[type=text] {
+    width: 100%;
+    padding: 11px 50px;
+    margin: 10px 0;
+    border: 0px;;
+    background-color:rgb(210, 211, 209);
+    }
+  .button{
+    background-color: rgb(181, 241, 120);
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align:center;
+    }
+  .wrap{
+      text-align: center;
+  }
+  .box {
+    border-style: solid;
+    width: 800px;
+    padding: 35px;
+    position: center;
+    display: flexbox;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 20px;
+
+    }
+    .box1 {
+        border-style: solid;
+        width: 1000px;
+        padding: 35px;
+        position: center;
+        display: flexbox;
+        align-content: center;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 60px;
+        margin-left: 270px;
+        }
+        
+   
+  
+  input[type='radio']:after {
+          width: 200px;
+          height: 10px;
+          border-radius: 12px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: rgb(235, 248, 186);
+          display: inline-block;
+          
+       
+      }
+      .radio-inline {
+        margin-left: 50px;
+    }
+  
+      input[type='radio']:checked:after {
+          width: 12px;
+          height: 12px;
+          border-radius: 12px;
+          top: -2px;
+          left: -1px;
+          position: relative;
+          background-color: lightgreen;
+          content: '';
+          border: 2px solid green;
+      }

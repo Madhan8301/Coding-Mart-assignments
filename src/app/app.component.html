@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="">
+
+<body>
+  <form class="box1">
+    <form>
+    <table>
+      <tr>
+        <td align="left">District Name &emsp;</td>
+        <td align="right"><input type="text" name="first" ></td>
+      </tr>
+      <tr>
+        <td align="left">Area (sq mt) </td>
+        <td align="right"><input type="text" name="last" ></td>
+      </tr>
+    
+      <tr>
+        <td align="left">Population &emsp;</td>
+        <td align="right"><input type="text" name="email" ></td>
+      </tr>
+    </table>
+  </form>
+  <div class="wrap">
+  <button class="button">SAVE</button>
+  </div>
+  <br><br>
+  <form class="box">
+        <label>Biggest District (Area wise)<br><br></label>
+        <input type="radio" ng-model="myVar" value="Chennai" class="radio-inline">Chennai
+    <input type="radio" ng-model="myVar" value="Coimbatore" class="radio-inline">Coimbatore 
+  
+    <input type="radio" ng-model="myVar" value="salem" class="radio-inline">Salem
+  </form><br><br>
+  <form class="box">
+    Highly populated District<br><br>
+    <input type="radio" ng-model="myVar" value="chennai" class="radio-inline">Chennai 
+    <input type="radio" ng-model="myVar" value="coimbatore" class="radio-inline">Coimbatore
+    <input type="radio" ng-model="myVar" value="salem" class="radio-inline">Salem
+  </form>
+</form>
+</body>
+</html>
